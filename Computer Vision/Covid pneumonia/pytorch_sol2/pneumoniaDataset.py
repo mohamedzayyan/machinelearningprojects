@@ -14,7 +14,7 @@ class pneumoniaDataset(Dataset):
 	        for img_path in glob.glob(class_path + "/*.jpeg"):
 	            self.data.append([img_path, class_name])
 	    #print(self.data)
-	    self.class_map = {"normal" : 0, "opacity": 1}
+	    self.class_map = {"normal" : [1,0], "opacity": [0,1]}
 	    self.transform = transform
 	    
 	def __len__(self):
