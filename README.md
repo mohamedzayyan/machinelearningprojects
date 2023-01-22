@@ -15,101 +15,17 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/mohamedzayyan/galaxyclassification">
-    <img src="logo.jpg" alt="Logo" width="150" height="150">
-  </a>
-
-  <h3 align="center">Galaxy Classification Using Machine Learning</h3>
-
-</p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-In this repo we provide code for various machine learning solutions for galaxy classification. 
+In this repo I provide code for various machine learning projects I have worked on. This will allow me to demonstrate my ability to train machine learning models, conduct data analysis, design data visualisation and, finally, derive insights/conclusions from the various techniques used. I will be exploring projects across various fields including (but not limited to) Classification/Regression, Unsupervised Learning, Computer Vision, Natural Language Processing (NLP), Audio deep learning, and Time Series analysis.
 
-### Software
-* [Anaconda](https://www.anaconda.com/)
-* [Ubuntu 18.4](https://releases.ubuntu.com/18.04/)
-* [Python 3.7](https://www.python.org/downloads/release/python-370/)
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-In order to properly make use of this repo, please follow the Installation and Usage instructions very carefully. 
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/mohamedzayyan/galaxyclassification.git
-   ```
-3. Install packages
-  ```sh
-   pip install -r requirements.txt
-  ```
-4. Download the datasets folder from this [Google Drive Link](https://drive.google.com/drive/folders/1vVwKTgbI9vNsAEb47KQKD7lzl1vkWiVb?usp=sharing). Replace the 'datasets' folder in the cloned repo folder with the downloaded datasets folder that contains the images. The 'images_gz2' zipped folder must be extracted into the datasets folder so the folder structure reads 'datasets/images/'.
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-## Please pay attention to the order in which the notebooks must be run, as some of the models serve as an initialisation for other models. There are also specific instructions in each notebook with regards to the specific parameters that can be used:
-1. First run the code in the 'gz2.ipynb' notebook. This will create the base model required for the transfer learning models.
-2. Next run the code in the 'efigi.ipynb' and 'gz2-hubble.ipynb' notebooks. This will create the Cross-Entropy, transfer learning models. The order in which these notebooks are run is not important.
-3. The code in the 'efigiLSCE.ipynb' and 'gz2LSCE.ipynb' notebooks can be run now. This will create the Label Smoothing Cross-Entropy models. The order in which these notebooks are run is not important.
-4. After Step 3, we may now run the 'efigiDML.ipynb' and 'gz2DML.ipynb' notebooks. This will create the Deep Metric Learning models. The order in which these notebooks are run is not important.
 
 
 <!-- CONTACT -->
 ## Contact
-
-Mohamed Zayyan Variawa - [@LinkedIn](www.linkedin.com/in/mohamedzayyanvariawa) - 852648@students.wits.ac.za
-
-Project Link: [https://github.com/mohamedzayyan/galaxyclassification](https://github.com/mohamedzayyan/galaxyclassification)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Best ReadMe Template](https://github.com/othneildrew/Best-README-Template)
-* [Pytorch Metric Learning](https://github.com/KevinMusgrave/pytorch-metric-learning)
-
+Mohamed Zayyan Variawa - [@LinkedIn](www.linkedin.com/in/mohamedzayyanvariawa) - mohamed.zayyan19@gmail.com
 
 
 
