@@ -18,7 +18,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Repository
 In this repo I provide code for various machine learning projects I have worked on. This will allow me to demonstrate my ability to train machine learning models, conduct data analysis, design data visualisations and, finally, derive data-driven insights/conclusions. 
 
 I will be exploring projects across various fields including (but not limited to) Classification/Regression, Unsupervised Learning, Computer Vision, Natural Language Processing (NLP), Audio deep learning, and Time Series analysis.
